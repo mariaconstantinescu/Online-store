@@ -1,0 +1,135 @@
+
+http://maria.novakinetic.com/index.html#edit
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="created" content="Sat, 02 May 2020 08:23:34 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet" href="owl.carousel.min.css">
+	<link rel="stylesheet" href="owl.theme.default.min.css">
+	<style>
+
+	</style>
+
+    <title></title>
+     <link rel="stylesheet" type="text/css" href="formatare.css" />
+   
+  </head>
+  <body>
+	<div class="owl-carousel owl-theme" id="topg" > 
+		<div  class="item" > $10 DOMESTIC / $20 INTERNATIONAL SHIPPING ON ALL ORDERS  </div>
+		<div  class="item" > Urban Sophistication is still delivering orders, while taking all necessary sanitary precautions. </div>
+	  </div>
+     
+     <div id="top"><div id="gen"><a href="index.html" >Women</a> | Men</div> 
+       <div id="identitate"><a href="index.html" >Urban Sophistication</a></div>
+	   <div id="cauta"><img src="poze/lupa.png" width="20px" />Search</div>
+    </div>
+	 <div id="meniu">
+		<label for="lab"><img src="poze/meniu.png" width="40px"/></label>
+		<input type="checkbox" id="lab"/>
+	    <ul>
+		   <li class="buton">NEW</li>
+		   <li class="buton">COLLECTION
+		       <ul class="submeniu">
+			  <li class="buton"><a href="pagina1.html">Tops</a></li>
+			  <li class="buton"><a href="pagina2.html">Jeans</a></li>
+			  <li class="buton"><a href="pagina3.html">Skirts</a></li>
+			  <li class="buton">Hoodies</li>
+			  <li class="buton">Party</li>
+			  <li class="buton">Shoes</li>
+			  <li class="buton">Accessories</li>
+			  </ul>
+		   </li>
+		   <li class="buton">50% OFF</li>
+		   <li class="buton"><a href="#edit">EDITORIAL</a></li>
+	 </div>
+	 <div id="bg"> </div>
+	 <div id="newin">NEW IN</div>
+	 <div id="bg2"> </div>
+	 <div id="edit">EDITORIAL</div>
+	 <div class="owl-carousel owl-theme" id="galerie" > 
+	 <div  class="item" > <img src="poze/edit1.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit2.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit3.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit4.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit5.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit6.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit7.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit8.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit9.jpg" /> </div>
+	 <div  class="item" > <img src="poze/edit10.jpg" /> </div>
+   </div>
+
+	 <div id="bottom">
+        <div id="stanga">
+		 <div id="news">NEWSLETTER
+		 <div id="abc"> <input type="email" name="mail" placeholder="*Your email adress" /></div></div>
+		</div>
+		 <div id="centru">
+		 <ul>
+		    <li>Contact us</li>
+			<li>Delivery & returns</li>
+			<li>FAQ</li>
+			<li>Careers</li>
+			<li>Legal terms and conditions</li>
+			<li>Data protection</li>
+		</ul>
+		 </div>
+		  <div id="dreapta">
+		   <div id="sus">
+		   <div id="xy">FOLLOW US</div><br/>
+		  <div id="wz">
+		  <a href="https://www.instagram.com" target="_blank"><img src="poze/instagram.png" width="40px"/></a>
+	       <a href="https://www.facebook.com" target="_blank"><img src="poze/facebook.jpg" width="40px"/></a>
+		   <a href="https://twitter.com" target="_blank"><img src="poze/twitter1.png" width="40px"/></a></div></div>
+		 
+		   <div id="jos">
+		   <div id="fg">COUNTRY / REGION</div>
+		  <div id="cde"> <select nume="tara">
+	    <div class="opt"> <option value="danmark">Danmark</option></div>
+		 <div class="opt"><option value="italia">Italia</option></div>
+		 <div class="opt"><option value="belgia">Belgique</option></div>
+		 <div class="opt"><option value="romania" selected="selected">Romania</option></div>
+	  </select></div></div>
+		   </div>
+		  </div>
+	 </div>
+
+	 <script src="jquery-3.5.1.min.js"></script>
+	 <script src="owl.carousel.min.js"></script>
+<script>
+	 $('#galerie').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
+		}
+	})
+	$('#topg').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		items:1,
+        autoplay:true,
+		autoplayTimeout:4000
+	})
+</script>
+
+  </body>
+</html>
